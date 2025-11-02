@@ -1,12 +1,10 @@
-var vegetables = ["Carrot", "Broccoli", "Onion", "Potato"]
-console.log(vegetables[0])
+var colors = ["Red", "Orange", "Yellow", "Green", "Blue", "Indigo", "Violet"]
+console.log(colors[0])
 
-console.log(vegetables.join("; "))
-console.log(vegetables.pop())
-console.log(vegetables)
+console.log(colors.join("; "))
+console.log(colors.pop())
 
-vegetables.push("Spinach")
-console.log(vegetables)
+colors.push("Black")
 
 function add(a,b) {
     return a+b;
